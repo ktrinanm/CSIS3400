@@ -1,0 +1,21 @@
+Terrain Modelling:
+
+Recursive method: fractional brownian motion
+		|
+		|     .
+yaxis	|  .
+		| .  .
+		|__________________
+connect the dots for the profile of a 2-D mountain
+
+In 3D we use the midpoint displacement algorithm
+
+1. Choose random numbers in some range for corners
+2. For the midpoint, take average of corners and add a random number to that.
+
+Given 512.ppm, hf_lab90.zip in the G-Drive
+
+A height field is a matrix of heights.
+
+Midpoint Displacement Algorithm Example:
+http://www.lighthouse3d.com/opengl/terrain/
